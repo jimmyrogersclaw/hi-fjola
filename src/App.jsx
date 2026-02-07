@@ -14,7 +14,7 @@ function App() {
 
       <section className="card">
         <div className="photo-container">
-          <img src="/fjola.jpg" alt="Fjola as Santa" className="photo" />
+          <img src={import.meta.env.BASE_URL + "fjola.jpg"} alt="Fjola as Santa" className="photo" />
         </div>
         <h2>Santa Fjola 🎄</h2>
         <p>The best Santa we've ever seen! Spreading joy and good vibes. 🎁</p>
@@ -22,7 +22,7 @@ function App() {
 
       <section className="card">
         <div className="photo-container">
-          <img src="/cookie.jpg" alt="Cookie the cat" className="photo" />
+          <img src={import.meta.env.BASE_URL + "cookie.jpg"} alt="Cookie the cat" className="photo" />
         </div>
         <h2>Cookie 🍪</h2>
         <p>
